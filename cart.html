@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Cart | GYSÉ</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="stylesheet"
+href="css/cart.css">
+
+</head>
+
+<body>
+
+    <header>
+
+<div class="logo">
+
+<h1>GYSÉ</h1>
+
+<p>Glow Your Skin Everyday.</p>
+
+</div>
+
+<nav class="menu">
+
+<a href="index.html">Home</a>
+
+<a href="products.html">
+
+Products
+
+</a>
+
+</nav>
+
+<div class="nav-actions">
+
+    <a href="cart.html" class="cart-btn active">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+        <span id="cart-count">(0)</span>
+    </a>
+
+    <a href="admin.html" class="admin-link">
+        Admin
+    </a>
+
+</div>
+
+</header>
+
+<section class="cart-title">
+
+<h2>
+
+Shopping Cart
+
+</h2>
+
+<p>
+
+Review your beauty selections before checkout.
+
+</p>
+
+</section>
+
+<section class="cart-container">
+
+<div id="cartItems">
+
+</div>
+
+</section>
+
+<footer>
+
+©2025 GYSÉ
+
+</footer>
+
+<!-- Sticky Order Summary Bar -->
+<div class="summary-bar">
+
+    <div class="summary-info">
+        <span class="summary-label">Total</span>
+        <h2 id="totalPrice">Rp0</h2>
+    </div>
+
+    <button id="checkoutBtn">
+        Proceed to Checkout
+    </button>
+
+</div>
+
+<script src="js/data.js"></script>
+
+<script src="js/main.js"></script>
+
+<script src="js/cart.js"></script>
+
+<script src="js/animations.js"></script>
+
+</body>
+
+</html>

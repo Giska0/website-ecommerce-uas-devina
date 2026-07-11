@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Products | GYSÉ</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet"
+href="css/products.css">
+
+</head>
+
+<body>
+
+    <header>
+
+<div class="logo">
+
+<h1>GYSÉ</h1>
+
+<p>Glow Your Skin Everyday.</p>
+
+</div>
+
+<nav class="menu">
+
+<a href="index.html">Home</a>
+
+<a href="products.html"
+class="active">
+
+Products
+
+</a>
+
+</nav>
+
+<div class="nav-actions">
+
+    <a href="cart.html" class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+        <span id="cart-count">(0)</span>
+    </a>
+
+    <a href="admin.html" class="admin-link">
+        Admin
+    </a>
+
+</div>
+
+</header>
+
+<section class="product-hero">
+
+<h2>
+
+Our Products
+
+</h2>
+
+<p>
+
+Discover authentic skincare & makeup from trusted brands.
+
+</p>
+
+</section>
+
+<section class="search-area">
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input
+
+type="text"
+
+placeholder="Search products..."
+
+id="searchInput">
+
+</div>
+
+</section>
+
+<section class="category">
+
+<button class="filter-btn active"
+data-category="All">
+
+All
+
+</button>
+
+<button class="filter-btn"
+data-category="Skincare">
+
+Skincare
+
+</button>
+
+<button class="filter-btn"
+data-category="Makeup">
+
+Makeup
+
+</button>
+
+</section>
+
+<section>
+
+<div
+
+class="products-container"
+
+id="productsContainer">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+©2025 GYSÉ
+
+Glow Your Skin Everyday.
+
+</p>
+
+</footer>
+
+<!-- Product Detail Modal -->
+<div id="detailModal" class="detail-modal">
+    <div class="detail-modal-box">
+        <span id="closeDetailModal" class="detail-modal-close">&times;</span>
+
+        <img id="detailImage" src="" alt="">
+
+        <p class="detail-brand" id="detailBrand"></p>
+        <h3 id="detailName"></h3>
+
+        <div class="detail-rating" id="detailRating"></div>
+
+        <div class="detail-price" id="detailPrice"></div>
+
+        <div class="detail-stock" id="detailStock"></div>
+
+        <p class="detail-desc" id="detailDescription"></p>
+
+        <button class="cart" id="detailAddToCart">
+            Add to Cart
+        </button>
+    </div>
+</div>
+
+<script src="js/data.js"></script>
+
+<script src="js/products.js"></script>
+
+<script src="js/animations.js"></script>
+
+</body>
+
+</html>

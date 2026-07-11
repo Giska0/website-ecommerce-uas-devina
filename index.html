@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>GYSÉ | Glow Your Skin Everyday</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+    <div class="logo">
+        <h1>GYSÉ</h1>
+        <p>Glow Your Skin Everyday.</p>
+    </div>
+
+    <nav class="menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+    </nav>
+
+    <div class="nav-actions">
+
+        <a href="cart.html" class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+            <span id="cart-count">(0)</span>
+        </a>
+
+        <a href="admin.html" class="admin-link">
+            Admin
+        </a>
+
+    </div>
+
+</header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <span>100% ORIGINAL PRODUCTS</span>
+
+            <h2>
+
+                Beauty Starts With
+
+                <br>
+
+                Healthy Skin.
+
+            </h2>
+
+            <p>
+
+                Shop authentic skincare and makeup
+
+                from your favorite local and international brands.
+
+            </p>
+
+            <a href="products.html"
+                class="btn">
+
+                Shop Now
+
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/hero.jpeg"
+                alt="GYSE Products">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BEST SELLER ================= -->
+
+    <section class="best-seller">
+
+        <h3>Best Seller</h3>
+
+        <p>
+
+            Our most loved products.
+
+        </p>
+
+
+
+        <div class="product-container" id="bestSellerContainer">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= REVIEW ================= -->
+
+    <section class="review">
+
+        <h3>Customer Reviews</h3>
+
+        <p>See what our lovely customers say.</p>
+
+
+
+        <div class="review-container">
+
+
+
+            <div class="review-card">
+
+                <i class="fa-solid fa-quote-right quote"></i>
+
+                <img src="images/profil2.jpeg">
+
+                <h4>Anggi N</h4>
+
+                <div>⭐⭐⭐⭐⭐</div>
+
+                <p>
+
+                    Produk original,
+
+                    pengiriman cepat,
+
+                    dan packaging rapi banget.
+
+                    Pasti belanja lagi!
+
+                </p>
+
+            </div>
+
+
+
+            <div class="review-card">
+
+                <i class="fa-solid fa-quote-right quote"></i>
+
+                <img src="images/profil1.jpeg">
+
+                <h4>Adinda Julia</h4>
+
+                <div>⭐⭐⭐⭐⭐</div>
+
+                <p>
+
+                    Website mudah digunakan.
+
+                    Checkout cepat
+
+                    dan produknya lengkap.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="review-card">
+
+                <i class="fa-solid fa-quote-right quote"></i>
+
+                <img src="images/profil3.jpeg">
+
+                <h4>Arika S</h4>
+
+                <div>⭐⭐⭐⭐⭐</div>
+
+                <p>
+
+                    Recommended!
+
+                    Produk selalu original
+
+                    dan pelayanannya memuaskan.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+
+            <h2>GYSÉ</h2>
+
+            <p>
+
+                Glow Your Skin Everyday.
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h4>Customer Care</h4>
+
+            <p>
+
+                📧 hellogyse@yahoo.com
+
+            </p>
+
+            <p>
+
+                📞 +62 812-3456-7890
+
+            </p>
+
+            <p>
+
+                📍 Bandung, Indonesia
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h4>Payment</h4>
+
+            <p>QRIS</p>
+
+            <p>Transfer Bank</p>
+
+            <p>Virtual Account</p>
+
+            <p>Cash on Delivery</p>
+
+        </div>
+
+    </footer>
+
+    <!-- Voucher Popup -->
+    <div id="voucherPopup" class="voucher-popup">
+        <div class="voucher-box">
+            <span id="closeVoucher">&times;</span>
+            <h2>🎉 Welcome to GYSÉ!</h2>
+            <p>Claim your first purchase voucher.</p>
+            <div class="voucher-code">
+                <span id="voucherText">GYSEFIRST</span>
+                <button id="copyVoucher">
+                    Copy
+                </button>
+            </div>
+            <p class="voucher-desc">
+                ✓ Free Shipping for your first order.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+
+</body>
+
+</html>
