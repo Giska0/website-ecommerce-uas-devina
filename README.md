@@ -312,10 +312,10 @@ Website ini masih dapat dikembangkan dengan menambahkan fitur seperti:
 # 🔗 Repository
 
 **GitHub Repository:**  
-(Tambahkan link repository GitHub di sini)
+(https://github.com/Giska0/website-ecommece-uas-devina)
 
 **GitHub Pages:**  
-(Tambahkan link website GitHub Pages di sini)
+(https://giska0.github.io/website-ecommerce-uas-devina/)
 
 ---
 
